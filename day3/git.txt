@@ -1,0 +1,21 @@
+Y
+using git for 1st time
+
+01. login to github
+02. click on bigbasket project
+03. create your feature branch from devBranch
+04. clone the project to the local repository -- command: git clone -b yourFeatureBranchName URL
+05. edit the code
+06. command: git add .
+07. command: git commit -m "Any message"
+08. command: git push origin yourFeatureBranchName
+09. merge to the devBranch
+
+day 2 at the time of commiting:
+
+01. merge devBranch to yourFeatureBranch
+02. command: git pull origin yourFeatureBranch
+03. command: git add .
+04. command: git commit -m "Any message"
+05. command: git push origin yourFeatureBranchName
+06. merge to the devBranch
